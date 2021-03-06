@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">  
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <title>Portifolio</title>
 </head>
+
 <body>
-    
+
     <div class="container">
 
-        
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+
         <header id="home">
             <div class="img-wrapper">
                 <img src="img/main.jpg" alt="">
@@ -26,8 +33,152 @@
                 <button>Saiba mais</button>
             </div>
         </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Video</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/pedro-maia-99629a1b5/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></i></a>
+                <a href="https://github.com/pedroHenriqueMaia?tab=repositories" target="_blank"><i
+                        class="fab fa-github-alt"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBnNPWTCnkPbHrPjMrFQTTVZpMGbpmjzlMgnlQTTmRBlDVClFFcvMtxThwNblKKblRtfDGh"
+                    target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eaque possimus ad. Voluptate
+                            laudantium consequuntur, atque autem praesentium eum magnam ullam eaque unde fugit quisquam,
+                            dolor repellat nulla nostrum illo!</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus repellendus nobis neque
+                            pariatur cum quaerat eligendi deleniti eos hic voluptate, dolorum nesciunt dolorem ex
+                            inventore eum id temporibus assumenda? Suscipit.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Designer</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor animi molestias
+                            numquam assumenda necessitatibus! Ducimus sed, eaque dicta, explicabo obcaecati, velit
+                            aspernatur itaque est enim repellendus quo magni fugit.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos nihil adipisci
+                            ipsa corrupti fugit, quam aliquid molestiae fuga quae dolorem maiores laboriosam eligendi
+                            eius excepturi harum quas, odit temporibus.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet nisi et itaque
+                            reprehenderit aliquid iusto porro voluptates quia? Corporis fugit in cupiditate hic commodi
+                            aperiam nihil soluta animi. Perferendis.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, error voluptatum. Consequuntur
+                            ipsam porro deserunt, dignissimos voluptatum maiores nisi! Incidunt nostrum quisquam
+                            blanditiis quia obcaecati tempore ab illo error. Similique?</p>
+                    </div>
+                </div>
+                <div class="conhecimento-img-wrapper">
+                    <img src="img/memoji.png" </div>
+                </div>
+        </section>
+
+        <section class="sessao-projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="img/calculadora.jpg" alt="Calculadora">
+                    </div>
+                    <div class="card-info">
+                        <h2>Calculadora</h2>
+                        <h3>JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni quis, sit impedit
+                            repellat error, nobis repellendus soluta quaerat incidunt, rerum nihil recusandae optio
+                            repudiandae praesentium necessitatibus et excepturi. Magnam?</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="img/conometro.jpg" alt="Conometro">
+                    </div>
+                    <div class="card-info">
+                        <h2>Conometro</h2>
+                        <h3>JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quos quam eveniet
+                            exercitationem amet molestias numquam? Quae eius hic, asperiores doloremque odio sapiente
+                            alias excepturi ducimus accusamus autem similique ex?</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="img/crud.jpg" alt="CRUD">
+                    </div>
+                    <div class="card-info">
+                        <h2>Fogo Pixel</h2>
+                        <h3>JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deserunt sunt repellendus
+                            earum a amet nesciunt distinctio. Delectus, mollitia aut architecto rem culpa repellat natus
+                            necessitatibus? Ad cum obcaecati qui.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </div>
-
 </body>
+
+<script src="script.js"></script>
+
 </html>

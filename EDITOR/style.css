@@ -1,0 +1,59 @@
+/*script responsavel pelo design do iframe*/
+#richTextField {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: solid rgb(184, 184, 184) 1px;
+}
+/*script responsavel pela sombra do iframe quando o mouse esta encima*/
+#richTextField:hover {
+  box-shadow: 0 0 13px rgb(221, 161, 254)
+}
+/*script responsavel pelo design do body*/
+body {
+  margin: justifyCenter;
+  background-color: rgb(50, 50, 50);
+  font-family: montserrat;
+  color: rgb(207, 119, 255);
+}
+/*script responsavel pelo alinhamento dos icones*/
+#icones {
+  margin-left: 80px;
+}
+/*script responsavel pelo design dos icones*/
+button {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  border: solid rgb(184, 184, 184) 1px;
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+/*script responsavel pela cor dos icones quando o mouse esta encima*/
+button:hover {
+  background-color: rgb(221, 161, 254);
+}
+/*script responsavel pela cor quando os icones são clicados*/
+button:focus {
+  background-color: rgb(189, 0, 255);
+  border: solid rgb(184, 184, 184) 1px;
+  box-shadow: none;
+}
+/*script responsavel pelo design dos selects*/
+select {
+  border-radius: 5px;
+}
+/*script responsavel pelo design do texto abaixo do iframe*/
+#nome {
+  color: rgb(255, 255, 255);
+  font-family: montserrat;
+  margin-top: 50px;
+  margin-left: 515px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+/*script responsavel pela cor do texto quando o mouse esta encima*/
+#nome:hover {
+  color: rgb(189, 0, 255);
+}

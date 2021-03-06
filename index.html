@@ -30,17 +30,16 @@
             <div class="banner">
                 <h1>Desenvolvedor Web & Front End Designer</h1>
                 <p>Pedro Henrique Maia</p>
-                <button>Saiba mais</button>
+                <a href="#conhecimentos"><button>Saiba mais</button></a>
             </div>
         </header>
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Conhecimentos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Video</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#video" class="menu-link">Video</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -53,7 +52,7 @@
             </div>
         </aside>
 
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -125,11 +124,11 @@
                     </div>
                 </div>
                 <div class="conhecimento-img-wrapper">
-                    <img src="img/memoji.png" </div>
+                    <img src="img/memoji.png">
                 </div>
         </section>
 
-        <section class="sessao-projetos">
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
             </div>
@@ -139,12 +138,12 @@
                         <img src="img/calculadora.jpg" alt="Calculadora">
                     </div>
                     <div class="card-info">
-                        <h2>Calculadora</h2>
-                        <h3>JavaScript</h3>
+                        <h2>Editor de Texto</h2>
+                        <h3>HTML & CSS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni quis, sit impedit
                             repellat error, nobis repellendus soluta quaerat incidunt, rerum nihil recusandae optio
                             repudiandae praesentium necessitatibus et excepturi. Magnam?</p>
-                        <button>Saiba Mais</button>
+                        <a href="./EDITOR/index.html " target="_blank" ><button>Saiba Mais</button></a>
                     </div>
                 </div>
                 <div class="card">
@@ -170,10 +169,30 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deserunt sunt repellendus
                             earum a amet nesciunt distinctio. Delectus, mollitia aut architecto rem culpa repellat natus
                             necessitatibus? Ad cum obcaecati qui.</p>
-                        <button>Saiba Mais</button>
+                        <a href="./FOGO/index.html" target="_blank"><button>Saiba Mais</button></a>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section>
+            <footer>
+                <div class="footer-content">
+                    <p>
+                        Copyright &copy; 2021, Pedro Henrique Maia
+                    </p>
+                    <div class="social-list">
+                        <ul>
+                         <li class="ul"><a href="https://www.facebook.com/pedrohenrique.maia.589" target="_blank" class="fab fa-facebook-f"></a></a></li>
+                         <li class="ul"><a href="https://www.instagram.com/pedrohmaia7/" target="_blank" class="fab fa-instagram"></a></li>
+                         <li class="ul"><a href="https://api.whatsapp.com/send?phone=55449971322414" target="_blank" class="fab fa-whatsapp"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <a href="#home" id="link-topo">
+                <i class="fas fa-arrow-up"></i>
+            </a>
         </section>
 
     </div>
